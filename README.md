@@ -12,21 +12,8 @@ This project was a key component of an ongoing startup initiative. However, give
 - **Some functionalities are currently disabled and require you to use your own api keys**: reverse geocoding is disabled. You'll find a placeholder in GeocodingApiConfig.kt but you can make it work by simply getting your own api key in https://api.bigdatacloud.net/data/reverse-geocode. Similar thing applies to fetching alternative data with OpenUV. You can grab your own api key on https://www.openuv.io/ and put it in CommonStrings_System.kt
 - **GP services won't work if you don't add your own google-services.json, from your Firebase Project**
 
-### Would like to have
+### Would like to have/Potential future development
 - **UI refactoring**: some parts of the user interface may need polishing to ensure a consistent and seamless experience across platforms.
 - **Resource sharing**: there are opportunities for optimization in how resources (e.g., assets) are shared between Android and iOS.
 - **Androic iconset**: android icon set is not set and defaulted to a common placeholder.
-
-### Android
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/sun-exposure-app.git
-2. Open the project in Android Studio.
-3. Build and run the app on an Android emulator or device.
-
-### iOS
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/sun-exposure-app.git
-Open the iOS project in Xcode.
-Build and run the app on an iOS simulator or device.
+- **Better retrieving of sun values**: at the moment the exact UV index is based on a simple time-interpolation value, fetched from meteo sources, but I'm sure something more precise and relevant can be done here.
