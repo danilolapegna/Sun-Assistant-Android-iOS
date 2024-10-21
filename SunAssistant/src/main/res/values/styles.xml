@@ -1,0 +1,28 @@
+<resources>
+    <style name="AppTheme" parent="android:Theme.Material.NoActionBar">
+        <!-- Base font family for the entire app -->
+        <item name="android:fontFamily">@font/sunassistant_font_family</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:textViewStyle">@style/CustomTextViewStyle</item>
+        <item name="android:buttonStyle">@style/CustomButtonStyle</item>
+        <item name="android:editTextStyle">@style/CustomEditTextStyle</item>
+        <item name="android:toolbarStyle">@style/CustomToolbarStyle</item>
+    </style>
+
+    <style name="CustomTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/sunassistant_font_family</item>
+    </style>
+
+    <style name="CustomButtonStyle" parent="android:Widget.Button">
+        <item name="android:fontFamily">@font/sunassistant_font_family</item>
+    </style>
+
+    <style name="CustomEditTextStyle" parent="android:Widget.EditText">
+        <item name="android:fontFamily">@font/sunassistant_font_family</item>
+    </style>
+
+    <style name="CustomToolbarStyle" parent="android:Widget.Toolbar">
+        <item name="android:fontFamily">@font/sunassistant_font_family</item>
+    </style>
+
+</resources>

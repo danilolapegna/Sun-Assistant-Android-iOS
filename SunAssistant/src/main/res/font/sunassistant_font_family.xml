@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <font
+        app:font="@font/poppins_medium"
+        app:fontStyle="normal"
+        app:fontWeight="@integer/font_weight_medium" />
+
+    <font
+        app:font="@font/poppins_medium_italic"
+        app:fontStyle="italic"
+        app:fontWeight="@integer/font_weight_medium" />
+
+    <font
+        app:font="@font/poppins_regular"
+        app:fontStyle="normal"
+        app:fontWeight="@integer/font_weight_regular" />
+
+    <font
+        app:font="@font/poppins_regular_italic"
+        app:fontStyle="italic"
+        app:fontWeight="@integer/font_weight_regular" />
+
+    <font
+        app:font="@font/poppins_light"
+        app:fontStyle="normal"
+        app:fontWeight="@integer/font_weight_light" />
+
+    <font
+        app:font="@font/poppins_light_italic"
+        app:fontStyle="italic"
+        app:fontWeight="@integer/font_weight_light" />
+
+    <font
+        app:font="@font/poppins_semibold"
+        app:fontStyle="normal"
+        app:fontWeight="@integer/font_weight_semibold" />
+
+    <font
+        app:font="@font/poppins_semibold_italic"
+        app:fontStyle="italic"
+        app:fontWeight="@integer/font_weight_semibold" />
+
+</font-family>

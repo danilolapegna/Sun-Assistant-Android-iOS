@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="logo_padding">20dp</dimen>
+
+    <integer name="font_weight_light">300</integer>
+    <integer name="font_weight_regular">400</integer>
+    <integer name="font_weight_medium">500</integer>
+    <integer name="font_weight_semibold">600</integer>
+</resources>
