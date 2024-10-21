@@ -1,9 +1,17 @@
-This app provides personalized health advice on sun exposure, promoting safe habits regarding UV exposure. It is both an educational tool and a practical resource.
+This app, in early but fully functional prototype stage, provides personalized health advice on sun exposure, promoting safe habits regarding UV exposure. It is both an educational tool and a practical resource.
 
 ## Key Features
 - **Kotlin Multiplatform**: the core logic is shared across platforms using Kotlin Multiplatform. Most of the business logic, including message generation, is in the shared module, while platform-specific UIs are built natively for Android and iOS.
   
 - **Cross-Platform Efficiency**: this app demonstrates the power of Kotlin Multiplatform in building shared logic, making it an excellent resource for developers interested in cross-platform development.
+
+- **Tech stack & architecture**
+   - Ktor for network calls to OpenMeteo and OpenUV APIs (alternative)
+   - Jetpack Compose (Droid)
+   - Coroutines (Droid)
+   - GP Location Services (Droid)
+   - SwiftUI (iOS)
+   - MVVM (Droid + iOS)
 
 ## Project Status
 This project was a key component of an ongoing startup initiative. However, given the fact that the project will definitely change, development up to this point has been made open-source to promote public utility (its github history has also been deleted to avoid exposing previously used keys and similar). Alsoo, it can be useful for learning, and community contributions. Last but not least, I decided to make available for anyone interested in learning Kotlin Multiplatform or contributing to its development.
