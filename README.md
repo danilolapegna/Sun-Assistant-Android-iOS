@@ -6,7 +6,7 @@ This app provides personalized health advice on sun exposure, promoting safe hab
 - **Cross-Platform Efficiency**: this app demonstrates the power of Kotlin Multiplatform in building shared logic, making it an excellent resource for developers interested in cross-platform development.
 
 ## Project Status
-This project was a key component of an ongoing startup initiative. However, given the fact that the project will definitely change, development up to this point has been made open-source to promote public utility, learning, and community contributions. Also, I decided to make available for anyone interested in learning Kotlin Multiplatform or contributing to its development.
+This project was a key component of an ongoing startup initiative. However, given the fact that the project will definitely change, development up to this point has been made open-source to promote public utility (its github history has also been deleted to avoid exposing previously used keys and similar). Alsoo, it can be useful for learning, and community contributions. Last but not least, I decided to make available for anyone interested in learning Kotlin Multiplatform or contributing to its development.
 
 ### Need to have
 - **Some functionalities are currently disabled and require you to use your own api keys**: reverse geocoding is disabled. You'll find a placeholder in GeocodingApiConfig.kt but you can make it work by simply getting your own api key in https://api.bigdatacloud.net/data/reverse-geocode. Similar thing applies to fetching alternative data with OpenUV. You can grab your own api key on https://www.openuv.io/ and put it in CommonStrings_System.kt
@@ -15,6 +15,7 @@ This project was a key component of an ongoing startup initiative. However, give
 ### Would like to have
 - **UI refactoring**: some parts of the user interface may need polishing to ensure a consistent and seamless experience across platforms.
 - **Resource sharing**: there are opportunities for optimization in how resources (e.g., assets) are shared between Android and iOS.
+- **Androic iconset**: android icon set is not set and defaulted to a common placeholder.
 
 ### Android
 1. Clone the repository:
