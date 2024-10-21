@@ -7,7 +7,7 @@ This app, in early but fully functional prototype stage, provides personalized h
 
 - **Tech stack & architecture**
    - Kotlin multiplatform
-   - Ktor for network calls to OpenMeteo and OpenUV APIs (alternative)
+   - Ktor for RESTful network calls to OpenMeteo (main data source) and OpenUV APIs (alternate data source)
    - Jetpack Compose (Droid)
    - Coroutines (Droid)
    - GP Location Services (Droid)
